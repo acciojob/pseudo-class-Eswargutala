@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+#container {
+  margin: 20px; /* i. Set a margin of 20px */
+}
+
+/* ii & iv & v. Use ::before pseudo-element with specific styles */
+#container::before {
+  content: "Before Element "; /* Insert content before the main content */
+  color: #f00; /* Display in red color */
+  font-size: 20px; /* Set font size to 20px */
+}
+
+/* iii & iv & v. Use ::after pseudo-element with specific styles */
+#container::after {
+  content: " After Element"; /* Insert content after the main content */
+  color: #f00; /* Display in red color */
+  font-size: 20px; /* Set font size to 20px */
+}
